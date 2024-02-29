@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Virtual Zoo" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* style of hedding */
+        h1{
+            background-color: aliceblue;
+            color: rgb(127, 255, 148);
+            box-shadow: 2px; 
+            border-color: black;
+
+        }
+        .left-box {
+            width: 10%;
+            image-rendering:crisp-edges;
+            float: left;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #000;
+            transition: transform .2s;
+        }
+        .right-box {
+            width: 10%;
+            float: right;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #000;
+            transition: transform .2s;
+        }
+
+        .left-box:hover {
+        transform: scale(0.9);
+        }
+
+        .right-box:hover {
+        transform: scale(0.9);
+        }
+        body {
+    background-color:rgb(127, 255, 148);
+    overflow: scroll;
+    color: #000; /* Black text */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    padding-left: 100px;
+    padding-top: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+nav {
+    background-color: #000; /* Black navigation bar */
+    color: rgb(217, 217, 211); /* Yellow text */
+    text-align: right;
+    padding-left: 1122px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: #dbdbd3; /* Yellow text for navigation links */
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section{
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #000; /* Black footer */
+    color: #efefe6; /* Yellow text */
+    text-align: center;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.search {
+    margin: 20px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000; 
+    color: #FFFF00; 
+    border: none;
+    cursor: pointer;
+} */
+.left-box {
+    width: 48%;
+    float: left;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    transition: transform .2s;
+}
+.right-box {
+    width: 48%;
+    float: right;background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    transition: transform .2s;
+}
+
+.left-box:hover {
+  transform: scale(0.9);
+}
+
+.right-box:hover {
+  transform: scale(0.9);
+}
+.username{
+    color: #dbdbd3; /* Yellow text for navigation links */
+    padding-left: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/* img{
+    width: 48%;
+    float: right;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    transition: transform .2s;
+    size-adjust:20px;;
+} */
+img{
+    padding-left: 70%;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <!-- hedding -->
+    <h1>VirtualZoo</h1>
+
+    <nav>
+        
+    </nav>
+
+    </header>
+
+
+    <!-- search bar -->
+    <section class="search">
+        <label>Search</label>
+        <input type="search" autocomplete="country-name" placeholder="Example:India">
+        <!-- <select>
+            <option value="">India</option>
+            <option>Middle East</option>
+        </select> -->
+    </section>
+
+    <section class="body">
+        <div class="boxes">
+            <a href="#" >
+                <section class="left-box">
+                    <h2>Lion</h2>
+                    <img src="https://th.bing.com/th/id/OIP.qzBgX2OIcdozEqE6SMOg-gHaD3?rs=1&pid=ImgDetMain" width="200px">
+                </section>
+            </a>
+            <a href="#" >
+                <section class="left-box">
+                    <h2>Deer</h2>
+                    <img src="https://th.bing.com/th/id/R.6ecbdb02535b7c71b016c815c4f095de?rik=AOia36I80cx7aQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-QNWITccYmPc%2fTq0MkLlPS1I%2fAAAAAAAAC8k%2fbZ7f8048310%2fs1600%2fBlacktail_Deer_pictures_wallpapers_beautiful_animals_wildlife_forest_greens.jpg&ehk=%2fZtI%2bfpceNtaah3fmLgaGCfB0VCAsMO2SUnnUhcW5JQ%3d&risl=&pid=ImgRaw&r=0" alt="Pickergill's Reedfrog" width="200px">
+                </section>
+            </a>
+            
+            <a href="#" >
+                <section class="left-box">
+                    <h2>elephant</h2>
+                    <img src="https://th.bing.com/th/id/OIP.-D5xt6nfX4BGup0qkTmyiAHaFI?rs=1&pid=ImgDetMain" width="200px">
+                </section>
+            </a>
+            <a href="#" >
+                <section class="left-box">
+                    <h2>cheetha</h2>
+                    <img src="https://th.bing.com/th/id/R.3dfda9deac3b38b9edc14d0b778b567b?rik=47fkBaImwoLpmQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFree-Download-Wildlife-Image.jpg&ehk=0Y6qVq5JBhu1a00gxIhsITN9M9Ntlxqcz5hGyTTQRqw%3d&risl=&pid=ImgRaw&r=0" width="200px">
+                </section>
+            </a>
+            <a href="#" >
+                <section class="left-box">
+                    <h2>Giraffe</h2>
+                    <img src="https://th.bing.com/th/id/OIP.BLk-6HmC19rlSNgWudORNAHaJI?w=1200&h=1479&rs=1&pid=ImgDetMain" width="200px">
+                </section>
+            </a>
+            <a href="#" >
+                <section class="left-box">
+                    <h2>zebra</h2>
+                    <img src="https://th.bing.com/th/id/OIP.wi48wAG14-11oOOwM5kavQHaFj?rs=1&pid=ImgDetMain" width="200px">
+                </section>
+            </a>
+            <a href="#">
+                <section class="right-box">
+                    <h2>technical Recruiter</h2>
+                    <p>➤Posted 3days ago.</p>
+                    <p>➤IT Technical Recruiter - US I Staffing Services...</p>
+                </section>
+            </a>
+            
+            <a href="#" >
+                <section class="left-box">
+                    <h2>Lead Recruiter / US Federal Recruiter</h2>
+                    <p> ➤posted 3 days ago</p>
+                    <p> ➤As a Lead Recruiter / US Federal Recruiter builds...</p>
+                </section>
+    </section>
+        
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
